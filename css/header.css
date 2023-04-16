@@ -27,3 +27,6 @@ header {
     color: #ee8683;
   }
   
+  .highlight {
+    background-color: red;
+  }
