@@ -1,6 +1,6 @@
 
-$("#about").click(function () {
-    $(this).css("background-color", "red");
-    $(this).css("color", "white");
+$(document).ready(function(){
+  $('#about').click(function(){
+    $(this).toggleClass('highlight');
+  });
 });
-
