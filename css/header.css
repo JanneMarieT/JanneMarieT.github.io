@@ -26,11 +26,9 @@ header {
   .about a:hover {
     color: #ee8683;
   }
-  
   .highlight {
     background-color: red;
   }
-
   .skills {
     background-color: #000;
     color: white;
