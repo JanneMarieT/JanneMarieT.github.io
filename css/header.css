@@ -30,3 +30,10 @@ header {
   .highlight {
     background-color: red;
   }
+
+  .skills {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+  }
