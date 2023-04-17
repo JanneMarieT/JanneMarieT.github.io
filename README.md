@@ -1,2 +1,4 @@
 # JanneMarieT.github.io
-Portfolio
+
+This is a simple static portfolioWebsite about me :)
+
