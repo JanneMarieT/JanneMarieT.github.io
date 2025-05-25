@@ -5,6 +5,10 @@ header {
     background-position: 50% 80%;
     background-color: #000;
   }
+
+body {
+  background-color: #000;
+}
   .header-content {
     height: 100vh;
     display: flex;
@@ -13,7 +17,8 @@ header {
     justify-content: center;
   }
   .about a {
-    color: #000;
+    color:white;
+    /*color: #000;*/
     display: inline-block;
     height: 62px;
     width: 62px;
@@ -22,6 +27,17 @@ header {
     border: 2px solid #d4d4d4;
     line-height: 60px;
     text-align: center;
+  }
+  .about {
+    color:white;
+  }
+
+  #MyWork {
+    color:white;
+  }
+  
+  #contact{
+    color:white;
   }
   .about a:hover {
     color: #ee8683;

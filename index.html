@@ -13,40 +13,14 @@
   <link href="./css/carousel.css" rel="stylesheet">
   <link href="./css/filters.css" rel="stylesheet">
 </head>
-
-<body class="position-relative" data-bs-spy="scroll">
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light
-  position-fixed w-100 fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#home">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
-  navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#personal">Personal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#myWork">My work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <div data-spy="scroll" data-target="#navbar" data-offset="0">
-    <header id="home">
+    <header>
+<div class="text-center py-4" >
+  <a href="#about" class="mx-3 text-white text-decoration-none">About</a>
+  <a href="#MyWork" class="mx-3 text-white text-decoration-none">My Work</a>
+  <a href="#contact" class="mx-3 text-white text-decoration-none">Contact</a>
+</div>
+    <section id="home">
       <div class="container-fluid header-content">
         <div class="row">
           <div class="col">
@@ -56,13 +30,12 @@
               <p>Thank you for visiting my portfolio!
                 <i class="bi bi-emoji-smile"></i>
               </p>
-              <a id="liveToastBtn" href="#" class="btn btn-dark">Like</a>
-              <a id="boredBtn" href="#" class="btn btn-dark">Activity</a>
             </div>
           </div>
         </div>
       </div>
     </header>
+
     <section class="about" id="about">
       <div class="container">
         <div class="row">
@@ -73,61 +46,20 @@
           <div class="col-lg-6 mt-5 mt-lg-0">
             <h2>About Me</h2>
 
-            <h3>Hello! <span style="color:#E96F85;">I am | Janne Marie Tvetene | -
-                Backend developer</span></h4>
-              <p>I am currently a student at Noroff, and will be finnished this summer and get my Professional Degree in backend development</p>
-              <p>My burning desire is to contribute to exciting projects with the help of my creativity by developing and maintaining all kinds of server-based software solutions. I feel that the backend study is just the beginning and I want to further develop myself within my current field by learning more programming languages, platforms and frameworks.</p>
-              <a href="https://github.com/JanneMarieT" target="_blank"><i class="bi bi-github"></i></a>
-              <a href="https://www.linkedin.com/in/janne-marie-tvetene/" target="_blank"><i class="bi bi-linkedin"></i></a>
-              <a href="https://www.instagram.com/janne_marie_t/" target="_blank"><i class="bi bi-instagram"></i></a>
+  
+<h3>Hello! <span style="color:#E96F85;">I’m Janne Marie Tvetene — Developer</span></h3>
+<p>I specialize in backend development with a growing focus on building secure and efficient systems. I’m passionate about developing server-side solutions that are not only powerful, but also resilient to modern cybersecurity threats.</p>
+<p>My goal is to contribute to meaningful projects by combining creativity with technical insight — whether it’s designing APIs, improving system performance, or ensuring application security. I see backend development as just the starting point, and I’m continuously expanding my skills in programming languages, frameworks, and ethical hacking techniques to stay ahead in the field.</p>
+
+
+              <a href="https://github.com/JanneMarieT" target="_blank"><i class="bi bi-github r-icon"></i></a>
+              <a href="https://www.linkedin.com/in/janne-marie-tvetene/" target="_blank"><i class="bi bi-linkedin r-icon"></i></a>
           </div>
         </div>
       </div>
     </section>
-    <section id="personal">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col mb-3 ">
-            <div class="col">
-              <h2>Something personal about me</h2>
-              <p>Since you are here I guess you want to know me a little bit better, so here are some quirks about me</p>
-            </div>
-          </div>
-          <div class="row">
-            <table class="table table-bordered" id="personalTable">
-              <thead>
-                <tr>
-                  <th scope="col">Info</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Image</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                    <td>Me Myself and my family</td>
-                    <td>I live in skien with my boyfriend and our daughter, Aurora. We have a house on Nenset and have an on and of game of renovating that lovely old thing.
-                        I think its good to dream big and one of our current golden dreams is to own a small cabbin down by the lake, some wonderfull day.</td>
-                    <td><img width='100' height='130' src='./img/meMyself&Family.jpg' alt='family'></td>
-                </tr>
-                <tr>
-                    <td>Me Myself and my plants</td>
-                    <td>Yes its true, i have a living breathing jungle at home. And no my family is housetrained it's more the greenery im talking about. I have proabably over 200 different species of plants growing in my home, making it a indoor jungle. 
-                        Well, its not as bad as it sounds, most of them are small. And well.... I like it. My own private jungle of calming peace while i code in frustration, just kidding, maybe.  
-                    </td>
-                    <td><img width='100' height='130' src='./img/jungle.jpg' alt='jungle'></td>
-                </tr>
-                <tr>
-                    <td>Me Myself and I</td>
-                    <td>I am originaly from Larvik, but have been living in skien for the past 14 years. My hobbies are everything and nothing, I love, love, love to travel, visiting new and exiting countries.
-                        I have a tattoo, I'm all into plants and gardening, love movies and ofcourse going to the movies. I like sushi, but mostly the fried stuff, wait let me rephrase that, I like fried food.
-                    </td>
-                    <td><img width='100' height='130' src='./img/MeMyself&I.jpg' alt='sign'></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-    </section>
-    <section id="myWork">
+
+    <section id="MyWork">
       <div class="p-5 text-center">
         <h2>Work</h2>
         <p class="mb-5">Some of my projects</p>
@@ -218,17 +150,7 @@
         </div>
         
     </section>
-    <section class="skills" id="skills">
-        <div class="container">
-             <div class="row"></div>
-             <h2 class="text-light bg-dark" text-align="justify-content-center">Skills</h2>
-                    <img src="img/ferdigheter.jpg" class="img-fluid border-0
-          rounded-pill" alt="Skills">
-                </div>
-            </div>
-          </div>
-        </section>
-    </section>
+
     <section id="contact">
       <div class="container text-center">
         <div class="row">
@@ -261,43 +183,21 @@
           </div>
         </div>
         <hr>
-        <div class="row">
-          <h3>Accessibility</h2>
-            <div class="col-5">
-              <p>If you can't read the text on the screen, toggle the selector to increase the font size</p>
-            </div>
-            <div class="col-5 text-end">
-              <div class="checkbox">
-                <input id="accessToggle" type="checkbox" data-toggle="toggle" data-offstyle="secondary">
-                <label>Increased font size</label>
-              </div>
-            </div>
-        </div>
+       
         <div class="row mt-5">
           <div class="col">
             <div class="r-icon text-center mt-3">
               <ul>
                 <li class="list-inline-item"><a href="https://github.com/JanneMarieT"target="_blank"><i class="bi bi-github"></i></a></li>
                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/janne-marie-tvetene/"target="_blank"><i class="bi bi-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.instagram.com/janne_marie_t/"target="_blank"><i class="bi bi-instagram"></i></a></li>
+               
               </ul>
             </div>
           </div>
         </div>
     </section>
   </div>
-  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
-    <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <strong class="me-auto">My web application portfolio</strong>
-        <small>A second ago</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-      </div>
-      <div class="toast-body">
-        You liked this page!
-      </div>
-    </div>
-  </div>
+
 
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
