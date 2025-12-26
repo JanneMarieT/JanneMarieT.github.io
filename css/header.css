@@ -32,7 +32,7 @@ body {
     color:white;
   }
 #home {
-  background-image: url('../img/blue.jpg');
+  background-image: url('../img/back.webp');
   background-size: cover;        
   background-position: center;  
   z-index: 3000;
